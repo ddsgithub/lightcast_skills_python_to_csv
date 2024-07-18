@@ -6,8 +6,7 @@ import pandas as pd
 # https://lightcast.io/products/data/API-form
 CLIENT_ID = 'XxXxX'
 CLIENT_SECRET = 'XxXxX'
-
-SCOPE = 'emsi_open'
+SCOPE = 'XxXxX'
 
 # For more information on the skills database please visit the following API page:
 # https://docs.lightcast.dev/apis/skills#meta
