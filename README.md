@@ -28,3 +28,10 @@ This repository contains a Python script to fetch and process skills data from t
 1. Register for an API client ID and secret on the Lightcast platform.
 2. Authenticate using the credentials sent to the registered user's email.
 3. Use the credentials in your coding language of choice to access the data.
+
+Example Output
+The processed data is saved as all_skills_latest.csv. Here’s an example of the resulting DataFrame structure:
+
+id	name	description	descriptionSource	infoUrl	category_id	category_name	subcategory_id	subcategory_name	isLanguage	isSoftware	tag_0_key	tag_0_value	type_id	type_name
+1234	Skill Name	Skill Description	Source	URL	5678	Category Name	91011	Subcategory Name	True	False	key1	value1	1213	Type Name
+
